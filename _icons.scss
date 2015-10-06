@@ -1,0 +1,3 @@
+$fa-css-prefix: fa ;
+$fa-var-glass: "\f000";
+.#{$fa-css-prefix}-glass:before { content: $fa-var-glass; }
