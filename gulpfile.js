@@ -4,6 +4,6 @@ var gulp = require('gulp'),
 gulp.task('sass', function () {
   return gulp
     .src('build.scss')
-	.pipe(sass({outputStyle: 'compressed'}).on('error', function(err) {notify().write(err); this.emit('end');}))
+	.pipe(sass({outputStyle: 'compressed'}))
 	.pipe(gulp.dest('./build'));
 });
